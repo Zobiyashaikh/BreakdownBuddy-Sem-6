@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.User body {
+    font-family: "Merriweather", serif;
+}
+
+.usercontainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.usermain {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.808);
+    max-height: 450px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+  
+}
+.usermain::before{
+    /* background-image: url("https://i.postimg.cc/8cnYLpfc/ddddd.jpg"); */
+    background-image: url("../images/userLoginmain.jpg");
+	width: 100%;
+	height: 100%;
+	background-size:contain;
+    /* background-repeat: no-repeat; */
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(3px);
+}
+
+.userform {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px;
+   
+}
+
+/*checkbox to switch form sign up to login*/
+
+#userchk {
+    display: none;
+}
+
+/*login*/
+
+.userlabel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.userlabel label {
+    margin: 5% 0 5%;
+}
+
+.userlabel {
+    color: #fff;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.userinput {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    background: #e0dede;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.userinput::placeholder{
+    color: #444 !important;
+}
+
+/*Register*/
+
+.userregister {
+    background: #eee;
+    border-radius: 60% / 10%;
+    transition: .8s ease-in-out;
+}
+
+.userreglabel {
+    color: #bb3128d8;
+    transform: scale(.6);
+}
+
+#userchk:checked~.userregister {
+    transform: translateY(-68%);
+}
+
+#userchk:checked~.userreglabel {
+    transform: scale(1);
+    margin-bottom: .5rem;
+}
+
+#userchk:checked~.userlogin label {
+    transform: scale(.6);
+}
+
+/*Button*/
+
+.userform button {
+    width: 70%;
+    height: 40px;
+    margin: 15px auto 10%;
+    color: #fff;
+    background: #bb3128d8;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in;
+
+}
+
+.userform button:hover {
+    background-color: #cc800fbb;
+}

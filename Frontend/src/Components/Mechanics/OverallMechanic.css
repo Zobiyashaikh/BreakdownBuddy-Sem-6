@@ -1,0 +1,61 @@
+.form-overall-container {
+    border: 1px solid rgb(245, 242, 242);
+margin-left:300px;
+background-color: #fff;
+padding: 20px;
+border-radius:0px 100px;
+box-shadow: 11px 15px 15px 11px #adadad;
+}
+.add-mechanic-container{
+    background-color:#E0E8F1 ;
+    color: black;
+  
+}
+
+.ant-form-item-label label {
+    /* Your CSS styles for the label here */
+    font-weight: bold;
+    font-size:larger;
+    color: #333;
+  }
+  .add-mechanic-form-btn:hover{
+    color: #fff;
+    box-shadow: 1px 5px 5px 1px #adadad;
+    border: none;
+  }
+
+  .mechanic-listing{padding:30px 5px}
+  .mechanic-listing .ant-card .ant-card-meta-title{
+    font-size:16px !important;
+    padding-top:0;
+    margin-bottom: 4px !important;
+  }
+  .mechanic-listing .ant-card-meta-detail{
+    margin-bottom:15px
+  }
+
+  .mechanic-listing .ant-card .ant-card-body{
+    padding:10px;
+    margin-left:0;
+  }
+
+  .mechanic-listing .ant-card .ant-card-actions{
+    bottom: 0 !important;
+    position: absolute !important;
+    width: 100% !important;
+  }
+
+  .mechanic-listing .ant-collapse .ant-collapse-item{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .mechanic-listing .ant-collapse .ant-checkbox-group{
+    display: flex;
+    flex-direction: column;
+  }
+  .mechanic-listing .ant-collapse .ant-checkbox-group .ant-checkbox-group-item {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }

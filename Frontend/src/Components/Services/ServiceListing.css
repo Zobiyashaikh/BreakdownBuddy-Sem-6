@@ -1,0 +1,120 @@
+/* ButtonComponent.css */
+.service-listing{
+  background-color:#F0F0F5;
+  /* background-color:#0056b3; */
+} 
+.service-listing .ant-card-head{
+  margin-top:0;
+} 
+.service-listing .ant-card-body{
+  padding:10px 15px 20px;
+} 
+.service-listing .ant-card-head .ant-card-head-title{
+  color:#0056b3;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+} 
+
+
+  .heading-fixed-div{
+    margin: 20px;
+    text-align: center;
+
+  }
+  .services-btn{
+    border: 1px solid #0056b3;
+    color:#0056b3;
+    height: 40px;
+    border-radius:0px;
+    width: 150px;
+    right: 20px;
+    position: absolute;
+    border-radius: 8px;
+  }
+  .services-btn:hover{
+    /* transform: scale(1.05); */
+    background-color: #0056b3;
+    color:#fff;
+  }
+  .search-input{
+    width: 90%;
+    margin: 20px;
+  }
+  
+  
+  
+
+.service-listing{
+  margin-top:175px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.fixed-div{
+    height: 400px;
+    width: 650px;
+    position: fixed;
+    /* overflow-x: hidden; */
+    top: 195px;
+    left: 660px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* z-index: 99; */
+    border-radius: 8px;
+}
+.service-listing .fixed-div .cart-items{
+  overflow-y: scroll;
+  height: 260px;
+}
+.service-listing .brands{
+  
+  display: flex;
+  flex-direction:row; 
+  margin: 10px;
+}
+.service-listing .box{
+  margin: 10px;
+  /* border: 1px solid ; */
+  height: 100px;
+  width: 200px;
+  text-align: center;
+}
+.service-listing .box:hover{
+  cursor:pointer;
+  transform: scale(1.03);
+  transition:ease-in-out all .2s;
+}
+
+/* .row{
+    width: 60%;
+} */
+.service-listing .service-card{
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  background-color: #fff;
+
+}
+.service-listing .service-card .price {
+  display: inline;
+  width: 250px;
+  padding: 10px 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  /* cursor: pointer; */
+  /* color: #00fd7f; */
+  font-weight:700;
+ 
+
+}
+
+.cards-row{
+  height: 500px;
+}
+.ant-card-head{
+  margin-top: 20px;
+}
+.ant-card-body{
+  margin-left: 20px;
+}
