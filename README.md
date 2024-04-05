@@ -9,7 +9,7 @@ Find nearby towing services
 Select car services and add them to cart
 Proceed to checkout
 
-#Technologies Used
+# Technologies Used
 PostgreSQL
 Express.js
 React.js
